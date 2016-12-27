@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{f6e722ae-769d-4f30-844b-686fee9002ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="calculation">
+      <UniqueIdentifier>{ba530328-2528-40f8-a510-e52351c78733}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="process.cpp" />
+    <ClCompile Include="dataset.cpp" />
+    <ClCompile Include="utilities\log.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\timestamp.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\performance.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\csv.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="process.h" />
+    <ClInclude Include="utilities\exception.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\log.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation\engine.h">
+      <Filter>calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation\generic.h">
+      <Filter>calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation\metric.h">
+      <Filter>calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation\quadratic.h">
+      <Filter>calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="dataset.h" />
+    <ClInclude Include="utilities\timestamp.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\performance.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\csv.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="utilities\progressbar.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
